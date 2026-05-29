@@ -7,4 +7,3 @@ Python automation scripts for IT administration and cybersecurity tasks.
 - Port Scanner
 - Password Generator
 - File Integrity Checker
-- Failed Login Detector
