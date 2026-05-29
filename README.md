@@ -5,4 +5,6 @@ Python automation scripts for IT administration and cybersecurity tasks.
 - Password Policy Audit Script
 - Log File Parser
 - Port Scanner
+- Password Generator
+- File Integrity Checker
 - Failed Login Detector
