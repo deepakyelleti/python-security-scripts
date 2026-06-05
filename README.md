@@ -47,4 +47,17 @@ Python automation scripts for IT administration and cybersecurity tasks.
   <img width="1108" height="513" alt="image" src="https://github.com/user-attachments/assets/489c55f1-02db-478f-ac71-7881006ad44d" />
 
 ## File Integrity Checker
-- 
+- Developed a Python-based File Integrity Monitoring (FIM) tool utilizing SHA256 cryptographic hashing to verify file integrity and detect unauthorized modifications.
+- The script will:
+     1. Generate SHA256 Hashes.
+     2. Verify File Integrity.
+     3. Detect Unauthorized File Modifications.
+- How It Works:
+     - Step 1: Generate a Baseline Hash.
+     - Say you have a document "document.txt"
+     - Run "python file-hash-checker.py" and Choose Option 1 "Generate SHA256 hash" and provide the File Path and store the Generated Hash.
+     - Step 2: Verify Integrity Later.
+     - Run "python file-hash-checker.py" and Choose Option 2 "Verify file integrity" and provide the File Path and previously Stored Hash from Step 1.
+     - Result: If the file has not changed, it will Pass the Integrity Check else Fail and display that the file has been modified.
+- Output:
+  <img width="1163" height="914" alt="image" src="https://github.com/user-attachments/assets/aa3065e0-5e55-46ac-9722-2ed5fc257abf" />
